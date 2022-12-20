@@ -31,7 +31,11 @@ const Header = () => {
             </li>
 
             <li>
-              <a>Item 3</a>
+            <Link to="/manage-blogs">Manage Blogs</Link>
+            </li>
+
+            <li>
+            <Link to="/post-blog">Post Blog</Link>
             </li>
           </ul>
         </div>
@@ -45,7 +49,10 @@ const Header = () => {
             <Link to="/home">Home</Link>
           </li>
           <li>
-            <a>Item 3</a>
+            <Link to="/manage-blogs">Manage Blogs</Link>
+            </li>
+          <li>
+          <Link to="/post-blog">Post Blog</Link>
           </li>
         </ul>
       </div>

@@ -1,11 +1,9 @@
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import loadBlogsData from '../../redux/thunk/blogs/loadBlogsData';
+import Blogs from './Blogs';
 
-import Blogs from '../Blogs/Blogs';
-
-
-const Home = () => {
+const ManageBlogs = () => {
     const blogs = useSelector((state) =>state.blogs)
     console.log(blogs);
     const dispatch = useDispatch();
@@ -25,4 +23,4 @@ const Home = () => {
     );
 };
 
-export default Home;
+export default ManageBlogs;
